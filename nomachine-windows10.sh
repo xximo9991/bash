@@ -1,4 +1,4 @@
-wget -O ng.sh https://github.com/xximo9991/go-vps/raw/main/ngrok.sh > /dev/null 2>&1
+wget -O ng.sh https://github.com/xximo9991/bash/raw/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 
@@ -19,7 +19,7 @@ echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
 read -p "Paste Ngrok Authtoken: " CRP
 ./ngrok config add-authtoken $CRP 
 clear
-echo "Repo: https://github.com/xximo9991/go-vps"
+echo "Repo: https://github.com/xximo9991/bash"
 echo "======================="
 echo "choose ngrok region (for better connection)."
 echo "======================="
